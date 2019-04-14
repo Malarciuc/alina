@@ -1,0 +1,55 @@
+sa redactam continutul la commit
+repozitoriu amplasat in repozitoriu online ca accesibil pentru altii
+
+
+
+
+
+
+
+echo "# Test-gittt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cronixm1/Test-gittt.git
+git push -u origin master
+
+
+ramura 
+git checkout -b "Numele de ex proiect"
+git push origin "numele "
+vezi toate ramurele 
+git branch -a
+sterge ramura de pe calculator
+git branch -d  "nume"
+git push origin :""NUme   sterge de pe git ramura
+	imbinarea ramurilor
+git merge master "denumirea a doua ramura "
+
+git log     afiseaza informatia despre commituri
+git log -p    arata diferenta intre commituri
+git log -2    se intoarce la al doilea commmit in loc de el punem orice cifra
+	git checkout denumirea ------
+git reset 		numele lui
+Изменение последнего коммита
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git commit --amend
+Изменение названия последнего коммита
+git commit --amend -m "Новое название"
+bra
+
